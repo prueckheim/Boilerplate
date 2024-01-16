@@ -1,7 +1,7 @@
 import { ButtonWrapper } from './Button.styles';
 import { ButtonProps } from './Button.types';
 
-const MyButton = ({
+const CustomButton = ({
   children,
   onClick,
   textColor,
@@ -20,4 +20,4 @@ const MyButton = ({
   );
 };
 
-export default MyButton;
+export default CustomButton;

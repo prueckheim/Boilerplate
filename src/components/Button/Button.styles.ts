@@ -3,8 +3,7 @@ import { styleProps } from './Button.types';
 import tw from 'twin.macro';
 
 export const ButtonWrapper = styled.button<styleProps>`
-  ${tw`py-3.5 px-8 font-semibold rounded-lg flex justify-center items-center text-black cursor-pointer
-    capitalize bg-gradient-to-r from-blue-400 to-blue-500 border border-blue-500`};
+  ${tw`mt-4 py-3 px-4 text-sm font-semibold rounded-lg text-white flex justify-center items-center text-black cursor-pointer capitalize bg-blue-500`};
   // using css
   ${({ textColor }) => textColor && `color: ${textColor};`}
   ${({ backgroundColor }) =>

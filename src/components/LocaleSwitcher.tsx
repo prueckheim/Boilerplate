@@ -5,7 +5,7 @@ import React from 'react';
 export default function LocaleSwitcher() {
   const t = useTranslations();
   const locale = useLocale();
-  const otherLocale = locale === 'en' ? 'fr' : 'en';
+  const otherLocale = locale === 'en' ? 'de' : 'en';
 
   return (
     <Link href={'/' + otherLocale} prefetch={false}>

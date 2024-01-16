@@ -1,4 +1,5 @@
 {
-    "title": "Contentlayer Example!",
-    "switchLocale": "Switch to {locale, select, fr {french} en {English} other {Unknown}}"
+    "title": "My Blog",
+    "switchLocale": "Wechseln zu {locale, select, de {Deutsch} en {Englisch} other {Unknown}}",
+    "readmore": "Read more"
 }

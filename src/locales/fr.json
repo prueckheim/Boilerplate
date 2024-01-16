@@ -1,4 +1,0 @@
-{
-    "title": "Contentlayer Exemple!",
-    "switchLocale": "Basculer vers {locale, select, fr {french} en {English} other {Unknown}}"
-}

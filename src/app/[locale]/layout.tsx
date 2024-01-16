@@ -7,7 +7,7 @@ import StyledComponentsRegistry from '../../lib/registry';
 import { Open_Sans } from 'next/font/google';
 
 export const metadata: Metadata = {
-  title: 'NextJs 13 Boilerplate',
+  title: 'Boilerplate',
   description: ''
 };
 
@@ -29,7 +29,6 @@ export default function RootLayout({
 
   return (
     <html lang={locale}>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={`${openSans.variable}`}>
         <StyledComponentsRegistry>
           <NextIntlClientProvider locale={locale} messages={messages}>
